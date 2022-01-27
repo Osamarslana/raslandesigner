@@ -188,7 +188,7 @@ info {
   justify-content:space-between;
   text-transform: uppercase;
   font-weight: 800;
-  margin-top: 20حء;
+  margin-top: 20px;
 }
 .more-details{
   text-decoration: none;
@@ -211,21 +211,21 @@ info {
   font-size: 1.2em;
 }
 
-@medi (max-width:1023px){
+@medi (max-width:102px){
   header{
-    padding-left: 10px;
+    padding-left: 15px;
   }
 
   .title{
-    font-size: 1.8em;
+    font-size: 2em;
   }
 
   section{
-    padding: 80px 20px;
+    padding: 100px 50px;
   }
 
   .main-content h3{
-    font-size: 1.6em;
+    font-size: 1.9em;
   }
   .content{
     flex-direction: column;
@@ -233,21 +233,21 @@ info {
   }
 }
 
-@media (max-width:641px) {
+@media (max-width:680px) {
   body{
-    font-size: 12px;
+    font-size: 18px;
   }
 
 
   .main-content h3{
-    font-size: 1.4em;
+    font-size: 1.8em;
   }
 }
 
-@media ( mix-width:300px){
+@media ( mix-width:350px){
 body{
-  font-size: 10px;
-  lem= 10
-  lem=16
+  font-size: 15px;
+  lem= 15
+  lem=20
   }
 }
